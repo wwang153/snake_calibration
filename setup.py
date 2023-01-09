@@ -19,7 +19,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        	'CapaCam_mapper = snake_calibration.subscriber_member_function:main',
+        	'CapaCam_mapper = snake_calibration.snake_capa_cam_mapper:main',
         ],
     },
 )
